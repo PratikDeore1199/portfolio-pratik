@@ -1,0 +1,151 @@
+.main {
+    background-color: rgba(87, 87, 192, 0.43);
+    padding-bottom: 5rem;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center; 
+    border: 0.8rem solid #fff;
+    border-radius: 0.5rem;
+    margin: auto;
+}
+
+.left {
+    width: 300px;
+
+}
+.left:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}
+.right {
+    color: #fff;
+    text-align: justify;
+    font-size: 3.5rem;
+    width: 250px;
+    padding:2rem;
+}
+
+.edu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+    
+}
+
+.edu-card {
+    width: 40%;
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    border: 0.8rem solid #fff;
+    border-radius: 0.5rem;
+}
+
+.edu-card p{
+    padding: 0.8rem;
+}
+
+.main h1{
+    font-size: 5rem;
+    padding: 5rem;
+    text-align: center;
+}
+progress[value] {
+    height: 10px;
+    width: 220px;
+    -webkit-appearance: none;
+}
+
+::-webkit-progress-value {
+    background-color: #457efa;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skill-card {
+    width: 40%;
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    border: 0.8rem solid #fff;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+
+@media screen and (max-width:740px) {
+    .main{
+        width:100%;
+        padding: 2rem;
+        margin: 0;
+    }
+
+    .main h1 {
+        font-size: 2rem;
+        padding: 0;
+        margin: 2rem;
+        
+    }
+
+    .about {
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center; 
+        border: 0.2rem solid #fff;
+        border-radius: 0.5rem;
+    }
+
+    .left {
+        width:90%;
+        
+    }
+
+    .right {
+        width: auto;
+        font-size: 1rem;
+        padding: 0;
+        margin: 0.5rem;
+        text-align: justify;
+    }
+
+    .edu, .skills {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        padding: 0;
+        margin: 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .edu-card, .skill-card {
+        width:80%;
+        background: rgba(0,0,0,0.8);
+        text-align: center;
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 1rem;
+        border: 0.4rem solid #fff;
+        border-radius: 0.5rem;
+    }
+
+    progress[value] {
+        height: 5px;
+        width: 80%;
+        -webkit-appearance: none;
+    }
+
+}
