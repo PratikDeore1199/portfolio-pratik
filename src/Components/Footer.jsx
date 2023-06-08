@@ -1,6 +1,7 @@
 import { FaFacebook, FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone, FaTwitter, FaWhatsapp } from "react-icons/fa"
 import "./FooterStyles.css"
 import React from 'react'
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -30,12 +31,12 @@ const Footer = () => {
             <div className="right">
                 <h4>Tap on the below icons to get connect with me</h4>
                 <div className="social">
-                    <FaGithub size={40} style={{color: "#fff", marginRight:"2rem"}}/>
-                    <FaLinkedin size={40} style={{color: "#fff", marginRight:"2rem"}}/>
-                    <FaWhatsapp size={40} style={{color: "#fff", marginRight:"2rem"}}/>
-                    <FaInstagram size={40} style={{color: "#fff", marginRight:"2rem"}}/>
-                    <FaFacebook size={40} style={{color: "#fff", marginRight:"2rem"}}/>
-                    <FaTwitter size={40} style={{color: "#fff", marginRight:"2rem"}}/>
+                    <Link to={"https://github.com/PratikDeore1199"}><FaGithub size={40} style={{color: "#fff", marginRight:"2rem"}} /></Link>
+                    <Link to={"https://www.linkedin.com/in/pratik-deore-1aa81a18a/"}><FaLinkedin size={40} style={{color: "#fff", marginRight:"2rem"}}/></Link>
+                    <Link to={"https://api.whatsapp.com/send/?phone=8626020792&text&type=phone_number&app_absent=0"}><FaWhatsapp size={40} style={{color: "#fff", marginRight:"2rem"}} /></Link>
+                    <Link to={"https://www.instagram.com/deore_pratik9503/"}><FaInstagram size={40} style={{color: "#fff", marginRight:"2rem"}}/></Link>
+                    <Link to={"https://www.facebook.com/profile.php?id=100009639763200"}><FaFacebook size={40} style={{color: "#fff", marginRight:"2rem"}}/></Link>
+                    <Link to={"https://twitter.com/IamThatPratik"}><FaTwitter size={40} style={{color: "#fff", marginRight:"2rem"}}/></Link>
                 </div>
             </div>
         </div>

@@ -28,3 +28,11 @@ ul {
   border-radius: 5px;
 }
 
+@media screen and (max-width:740px) {
+
+  .btn {
+    padding: 0.4rem;
+    margin: 0.6rem
+  }
+}
+

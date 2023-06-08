@@ -13,13 +13,12 @@
     margin: auto;
 }
 
-.left {
+.about .left {
     width: 300px;
 
 }
-.left:hover{
-    transform: scale(1.1);
-    transition: 3s;
+.about .left:hover{
+    transform: scale(1.01);
 }
 .right {
     color: #fff;

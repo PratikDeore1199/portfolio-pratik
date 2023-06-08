@@ -11,9 +11,9 @@ const HeroImg = () => {
         <div className="content">
           <p>HI, I'M A FREELANCER.</p>
           <h1>React Developer.</h1>
-          <div style={{margin:"1rem" , padding:"1rem"}}>
+          <div className='buttons' style={{margin:"1rem" , padding:"1rem"}}>
             <Link to="/project" className='btn'>Projects</Link>
-            <Link to="/contact" className='btn'>Contact</Link>
+            <Link to="/about" className='btn'>About Me.</Link>
           </div>
         </div>
     </div>

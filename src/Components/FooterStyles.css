@@ -38,6 +38,7 @@
 
 .social {
     margin-top: 1rem;
+    display: flex;
 }
 
 h4 {
@@ -51,5 +52,7 @@ h4 {
         margin: auto;
         padding: auto;
     }
-
+    .social{
+        display: block;
+    }
 }
